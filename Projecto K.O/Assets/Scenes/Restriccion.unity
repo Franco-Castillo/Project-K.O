@@ -432,7 +432,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 922766522}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705547317}
+        m_TargetAssemblyTypeName: Reg_Game, Assembly-CSharp
+        m_MethodName: Cambiar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &922766522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,6 +732,7 @@ GameObject:
   - component: {fileID: 1705547316}
   - component: {fileID: 1705547315}
   - component: {fileID: 1705547314}
+  - component: {fileID: 1705547317}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -811,6 +824,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1705547317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705547312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ba28445fee5b498770b043d7190dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1720250419
 GameObject:
   m_ObjectHideFlags: 0
