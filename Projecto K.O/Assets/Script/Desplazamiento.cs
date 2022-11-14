@@ -5,6 +5,8 @@ using UnityEngine;
 public class Desplazamiento : MonoBehaviour
 {
     public float velocidad;
+    public float FSalto;
+    
     private Rigidbody2D rigidbody;
     private bool MDerecha = true;
 
