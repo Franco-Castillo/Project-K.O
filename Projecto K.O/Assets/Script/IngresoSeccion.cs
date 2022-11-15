@@ -18,7 +18,7 @@ public class IngresoSeccion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
     public void Validar()
     {   //Solo si es mayor de edad

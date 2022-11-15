@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 14.999998}
+  m_AnchoredPosition: {x: 304, y: -94}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &64616417
@@ -319,7 +319,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -431,7 +431,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -30}
+  m_AnchoredPosition: {x: 304, y: -135}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922766521
@@ -644,7 +644,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 45.000004}
+  m_AnchoredPosition: {x: 304, y: -58}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1194500047
@@ -899,7 +899,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Estamos Ready....
+  m_Text: Accepto el desafio
 --- !u!222 &1524614954
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1327,8 +1327,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.81, y: 98}
-  m_SizeDelta: {x: 292.25, y: 57.23}
+  m_AnchoredPosition: {x: 0.97, y: -2.6425}
+  m_SizeDelta: {x: 382.23, y: 363.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1801623767
 MonoBehaviour:
@@ -1363,7 +1363,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Restriccion de Edad Porfavor ingrese su edad
+  m_Text: "En este mundo los artes del combate son importantes, ya que solo el mas
+    fuerte es apto para destacar como el mas fuerte luchador que jam\xE1s ha existido
+    y honrar a sus maestros, pero hay un misterioso luchador que se alza contra los
+    campeones para desafiar nuestras habilidades y as\xED honrar a su maestro muerto,
+    dice que nos podr\xE1 derrotar.\r\n\r\n\n\xBFAceptar\xE1s el desaf\xEDo? y as\xED
+    mantener el honor de nuestro pueblo.\r\n(No es apto para cobardes y ni\xF1itas)"
 --- !u!222 &1801623768
 CanvasRenderer:
   m_ObjectHideFlags: 0
