@@ -40,7 +40,7 @@ public class Desplazamiento : MonoBehaviour
         }
 
         rigidbody.velocity = new Vector2(inputMovimiento * velocidad, rigidbody.velocity.y);
-
+        
         GOrientacion(inputMovimiento);
     }
 

@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fondo
+    uniqueID: 594324161
+    locked: 0
+  - name: Suelo
+    uniqueID: 3585085769
+    locked: 0
+  - name: Player
+    uniqueID: 3441196579
+    locked: 0
+  - name: Saco
+    uniqueID: 2381243841
+    locked: 0
