@@ -1368,7 +1368,8 @@ MonoBehaviour:
     y honrar a sus maestros, pero hay un misterioso luchador que se alza contra los
     campeones para desafiar nuestras habilidades y as\xED honrar a su maestro muerto,
     dice que nos podr\xE1 derrotar.\r\n\r\n\n\xBFAceptar\xE1s el desaf\xEDo? y as\xED
-    mantener el honor de nuestro pueblo.\r\n(No es apto para cobardes y ni\xF1itas)"
+    mantener el honor de nuestro pueblo.\r\n(No es apto para cobardes y Menores de
+    edad)"
 --- !u!222 &1801623768
 CanvasRenderer:
   m_ObjectHideFlags: 0
