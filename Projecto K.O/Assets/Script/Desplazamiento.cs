@@ -6,6 +6,7 @@ public class Desplazamiento : MonoBehaviour
 {
     public float velocidad;
     public float FSalto;
+    public bool TocandoSuelo;
     
     private Rigidbody2D rigidbody;
     private bool MDerecha = true;
@@ -46,9 +47,10 @@ public class Desplazamiento : MonoBehaviour
 
     void ProcesarS()
     {
-        if(Input.GetKeyDown (KeyCode.Space) )
+        if(Input.GetKeyDown (KeyCode.Space) && TocandoSuelo == true)
         {
             rigidbody.AddForce (Vector2.up * FSalto, ForceMode2D.Impulse);
+            TocandoSuelo = false;
         }
     }
 
@@ -60,5 +62,13 @@ public class Desplazamiento : MonoBehaviour
             transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
         }
     }
+
+    public void OnCollisionEnter2D(Collision2D laCosa)
+    {
+        if(laCosa.gameObject.tag == "Suelo")
+        {
+            TocandoSuelo = true;
+        }
+    }    
 
 }

@@ -335,7 +335,6 @@ GameObject:
   - component: {fileID: 898289696}
   - component: {fileID: 898289695}
   - component: {fileID: 898289694}
-  - component: {fileID: 898289697}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -428,18 +427,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &898289697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898289692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 774417992f4c50d479cf923dd9215a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1000025652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,13 +1020,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 774417992f4c50d479cf923dd9215a1d, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+      - m_Target: {fileID: 898289692}
+        m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
